@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "name": "(Windows) Launch",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/bin/cocaine.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}/build/bin",
+      "environment": [],
+      "console": "integratedTerminal",
+      "preLaunchTask": "CMake: build",
+      "requireExactSource": false,
+      "symbolOptions": {
+        "searchPaths": ["https://driver-symbols.nvidia.com/"],
+        "searchMicrosoftSymbolServer": true,
+        "cachePath": "C:\\DebugSym"
+      }
+    }
+  ]
+}

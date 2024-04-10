@@ -1,0 +1,13 @@
+.cache/
+build/
+libcef/
+
+thirdparty/*
+!thirdparty/README.md
+
+scratch/
+call satck.cpp
+shit.txt
+yeet.js
+brute.js
+build*

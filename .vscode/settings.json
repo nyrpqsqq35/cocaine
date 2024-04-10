@@ -1,0 +1,45 @@
+{
+  "C_Cpp.intelliSenseEngine": "disabled",
+  "clangd.arguments": [
+    "-background-index",
+    "-header-insertion=never",
+    "-compile-commands-dir=build"
+  ],
+  "cmake.configureSettings": {
+    "CMAKE_MT": "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x64/mt.exe",
+    "CMAKE_TOOLCHAIN_FILE": "C:/src/vcpkg/scripts/buildsystems/vcpkg.cmake"
+  },
+  "C/C++ Include Guard.Auto Update Path Allowlist": ["src"],
+  "files.associations": {
+    "common.h": "c",
+    "kph.h": "c",
+    "dyn.h": "c",
+    "exception": "cpp",
+    "_70_exception": "cpp",
+    "_70_new": "cpp",
+    "_70_xstddef": "cpp",
+    "cstddef": "cpp",
+    "new": "cpp",
+    "xstddef": "cpp",
+    "bit": "cpp",
+    "compare": "cpp",
+    "concepts": "cpp",
+    "cstdint": "cpp",
+    "cstdio": "cpp",
+    "cstdlib": "cpp",
+    "cstring": "cpp",
+    "cwchar": "cpp",
+    "initializer_list": "cpp",
+    "iosfwd": "cpp",
+    "limits": "cpp",
+    "stdexcept": "cpp",
+    "tuple": "cpp",
+    "type_traits": "cpp",
+    "utility": "cpp",
+    "xmemory": "cpp",
+    "xstring": "cpp",
+    "xtr1common": "cpp",
+    "xutility": "cpp"
+  },
+  "cmake.configureOnOpen": true
+}

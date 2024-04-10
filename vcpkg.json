@@ -1,0 +1,33 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+  "name": "cocaine",
+  "version": "0.0.0",
+
+  "dependencies": [
+    {
+      "name": "nlohmann-json"
+    },
+    {
+      "name": "flatbuffers"
+    },
+    {
+      "name": "hidapi"
+    },
+    {
+      "name": "glew"
+    },
+    {
+      "name": "glm"
+    },
+    {
+      "name": "xxhash"
+    },
+    {
+      "name": "murmurhash"
+    },
+    {
+      "name": "freetype",
+      "features": ["zlib", "png"]
+    }
+  ]
+}
